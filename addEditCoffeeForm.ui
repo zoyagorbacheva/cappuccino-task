@@ -1,0 +1,80 @@
+<?xml version="4.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddEditCoffeeForm</class>
+ <widget class="QDialog" name="AddEditCoffeeForm">
+  <property name="geometry">
+   <rect>
+    <x>100</x>
+    <y>100</y>
+    <width>800</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Добавить/Редактировать кофе</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLineEdit" name="nameLineEdit">
+      <property name="placeholderText">
+       <string>Название</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="roastLineEdit">
+      <property name="placeholderText">
+       <string>Обжарка</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="typeLineEdit">
+      <property name="placeholderText">
+       <string>Тип</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="tasteLineEdit">
+      <property name="placeholderText">
+       <string>Вкус</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="priceLineEdit">
+      <property name="placeholderText">
+       <string>Цена</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="volumeLineEdit">
+      <property name="placeholderText">
+       <string>Объем</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="saveButton">
+      <property name="text">
+       <string>Сохранить</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
+
+
+
+
+
+
+
+
